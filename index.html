@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Indiana Spring Flowers</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<script>
+    var header = document.createElement("header");
+    header.textContent = "Spring Flowers in Indiana";
+    document.body.appendChild(header);
+
+    var paragraph = document.createElement("p");
+    paragraph.textContent =
+        "Springtime in Indiana is never predictable, it could be filled with sunshine, rain and even snow. The best way to prepare for Spring is to keep a range of clothing handy, because you never know what the weather will bring.";
+    document.body.appendChild(paragraph);
+
+    var list = document.createElement("ol");
+
+    var item1 = document.createElement("li");
+    item1.textContent = "Daffodil, golden yellow rays of sunlight";
+    list.appendChild(item1);
+
+    var item2 = document.createElement("li");
+    item2.textContent = "Crocus, purple carpets";
+    list.appendChild(item2);
+
+    var item3 = document.createElement("li");
+    item3.textContent = "Iris, multi-coloured spectacle";
+    list.appendChild(item3);
+
+    document.body.appendChild(list);
+</script>
+
+</body>
+</html>
